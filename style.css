@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  border:solid #3BBADB;
+  overflow: hidden; 
+  min-height: 100%;
+  box-sizing: border-box;
+
+}
+
+header {
+  padding: 10px;
+  text-align: right;
+  padding: 10px;
+  margin: 30px;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+color:#D1884F;
+}
+
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  padding: 10px;
+  margin: 60px;
+}
+
+.container h4{
+  color:#3BBADB;
+}
+
+.container h2 {
+  font-size: 2em;
+  color: #008AAA;
+}
+.container h2 span {
+  color: #D1884F;
+}
+
+.container p {
+  padding: 10px 0 40px 0;
+}
+
+
+
+.btn-group a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: #008AAA;
+  border-radius: 0px;
+  border: 2px solid #008AAA;
+  font-weight: 500;
+  transition: .3s;
+}
+.btn-group a:hover:nth-child(1) {
+  color: #008AAA;
+  background: transparent;
+}
+.btn-group a:nth-child(2) {
+  color: #008AAA;
+  background: transparent;
+  margin-left: 30px;
+  padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2) {
+  color: #fff;
+  background: #008AAA;
+}
+
+
+.image-container {
+  width: 50%; 
+  max-width: 600px; 
+}
+
+.image-container img {
+  position:fixed;
+  width: 25%;
+  height: auto;
+  padding:10px;
+  margin: 60px;
+  border-radius: 5px 5px 5px 200px;
+  right:0;
+
+}
+
+@media (max-width: 768px) {
+  .image-container {
+      width: 70%; 
+  }
+}
+
+
